@@ -1,0 +1,110 @@
+
+
+body{
+
+    background-image:url(/Pictures/regBG.png);
+    background-repeat: no-repeat;
+    font-family: 'myfonts1';
+
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+
+    font-family: 'myfonts1';
+    src: url(/Fonts/DroidKufi-Regular.ttf);
+
+}
+
+
+
+.inner{
+
+    height: 75%;
+    width: 70%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 68px rgb(0, rgb(0,0,0,0,5), blue);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.photo{
+
+    width: 50%;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.photo.imag
+
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.fourm{
+
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    border-radius: 0px 10px 0px;
+    text-align: right;
+}
+
+.fourm h1{
+
+    color: black;
+    padding: 10px 0px;
+    margin: 20px 10px;
+    font-size: 20px;
+}
+
+.fourm img{
+    margin-right: 3rem;
+}
+
+input{
+
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid rgb(59, 57, 57);
+    margin-right: 2rem;
+    padding: 1rem;
+    text-align: right;
+    font-size: 1rem;
+    font-family: 'Segoe UI';
+    
+
+}
+.btn2{
+    text-decoration: none;
+    font: size 17px;
+    color: white;
+    background-color:#28A5DD;
+    display: inline;
+    padding: 7px 60px;
+    transition: 0.7s;
+    margin-right: 6rem;
+}
+
+.btn2:hover{
+    color: white;
+    background-color:#060930;
+
+}
+
+.input:focus{
+
+    border:white;
+}
